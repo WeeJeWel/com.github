@@ -1,0 +1,70 @@
+{
+  "triggers": [
+    {
+      "id": "issue_opened",
+      "title": "An issue has been opened",
+      "tokens": [
+        {
+          "name": "username",
+          "title": "Username"
+        },
+        {
+          "name": "repository",
+          "title": "Repository"
+        },
+        {
+          "name": "number",
+          "title": "Number"
+        },
+        {
+          "name": "title",
+          "title": "Title"
+        }
+      ]
+    },
+    {
+      "id": "issue_closed",
+      "title": "An issue has been closed",
+      "tokens": [
+        {
+          "name": "username",
+          "title": "Username"
+        },
+        {
+          "name": "repository",
+          "title": "Repository"
+        },
+        {
+          "name": "number",
+          "title": "Number"
+        },
+        {
+          "name": "title",
+          "title": "Title"
+        }
+      ]
+    },
+    {
+      "id": "issue_reopened",
+      "title": "An issue has been reopened",
+      "tokens": [
+        {
+          "name": "username",
+          "title": "Username"
+        },
+        {
+          "name": "repository",
+          "title": "Repository"
+        },
+        {
+          "name": "number",
+          "title": "Number"
+        },
+        {
+          "name": "title",
+          "title": "Title"
+        }
+      ]
+    }
+  ]
+}

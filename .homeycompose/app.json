@@ -1,0 +1,25 @@
+{
+  "id": "com.github",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "brandColor": "#6cc644",
+  "name": {
+    "en": "GitHub"
+  },
+  "description": {
+    "en": "Where the world builds software"
+  },
+  "category": [
+    "tools"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Emile Nijssen",
+    "email": "emile@athom.nl"
+  }
+}

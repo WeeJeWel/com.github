@@ -1,0 +1,7 @@
+{
+  "extends": "athom",
+  "rules": {
+    "no-shadow": "off",
+    "max-len": ["error", 200]
+  }
+}
