@@ -1,0 +1,329 @@
+{
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
+  "id": "com.github",
+  "version": "1.0.1",
+  "compatibility": ">=5.0.0",
+  "platforms": [
+    "local",
+    "cloud"
+  ],
+  "sdk": 3,
+  "brandColor": "#560056",
+  "name": {
+    "en": "GitHub"
+  },
+  "description": {
+    "en": "Where the world builds software"
+  },
+  "category": [
+    "tools"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Emile Nijssen",
+    "email": "emile@athom.nl"
+  },
+  "flow": {
+    "triggers": [
+      {
+        "id": "issue_opened",
+        "title": "An issue has been opened",
+        "tokens": [
+          {
+            "name": "username",
+            "title": "Username",
+            "example": "athombv"
+          },
+          {
+            "name": "repository",
+            "title": "Repository",
+            "example": "node-homey"
+          },
+          {
+            "name": "number",
+            "title": "Number",
+            "example": "3"
+          },
+          {
+            "name": "title",
+            "title": "Title",
+            "example": "Something's not working"
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=organization"
+          }
+        ]
+      },
+      {
+        "id": "issue_closed",
+        "title": "An issue has been closed",
+        "tokens": [
+          {
+            "name": "username",
+            "title": "Username",
+            "example": "athombv"
+          },
+          {
+            "name": "repository",
+            "title": "Repository",
+            "example": "node-homey"
+          },
+          {
+            "name": "number",
+            "title": "Number",
+            "example": "3"
+          },
+          {
+            "name": "title",
+            "title": "Title",
+            "example": "Something's not working"
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=organization"
+          }
+        ]
+      },
+      {
+        "id": "issue_reopened",
+        "title": "An issue has been reopened",
+        "tokens": [
+          {
+            "name": "username",
+            "title": "Username",
+            "example": "athombv"
+          },
+          {
+            "name": "repository",
+            "title": "Repository",
+            "example": "node-homey"
+          },
+          {
+            "name": "number",
+            "title": "Number",
+            "example": "3"
+          },
+          {
+            "name": "title",
+            "title": "Title",
+            "example": "Something's not working"
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=organization"
+          }
+        ]
+      },
+      {
+        "id": "push",
+        "title": "Someone has pushed",
+        "tokens": [
+          {
+            "name": "username",
+            "title": "Username",
+            "example": "athombv"
+          },
+          {
+            "name": "repository",
+            "title": "Repository",
+            "example": "node-homey"
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=organization"
+          }
+        ]
+      },
+      {
+        "id": "pull_request_opened",
+        "title": "A pull request has been opened",
+        "tokens": [
+          {
+            "name": "username",
+            "title": "Username",
+            "example": "athombv"
+          },
+          {
+            "name": "repository",
+            "title": "Repository",
+            "example": "node-homey"
+          },
+          {
+            "name": "number",
+            "title": "Number",
+            "example": "3"
+          },
+          {
+            "name": "title",
+            "title": "Title",
+            "example": "Update README.md"
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=organization"
+          }
+        ]
+      },
+      {
+        "id": "pull_request_merged",
+        "title": "A pull request has been merged",
+        "tokens": [
+          {
+            "name": "username",
+            "title": "Username",
+            "example": "athombv"
+          },
+          {
+            "name": "repository",
+            "title": "Repository",
+            "example": "node-homey"
+          },
+          {
+            "name": "number",
+            "title": "Number",
+            "example": "3"
+          },
+          {
+            "name": "title",
+            "title": "Title",
+            "example": "Update README.md"
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=organization"
+          }
+        ]
+      },
+      {
+        "id": "pull_request_reopened",
+        "title": "A pull request has been reopened",
+        "tokens": [
+          {
+            "name": "username",
+            "title": "Username",
+            "example": "athombv"
+          },
+          {
+            "name": "repository",
+            "title": "Repository",
+            "example": "node-homey"
+          },
+          {
+            "name": "number",
+            "title": "Number",
+            "example": "3"
+          },
+          {
+            "name": "title",
+            "title": "Title",
+            "example": "Update README.md"
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=organization"
+          }
+        ]
+      },
+      {
+        "id": "pull_request_closed",
+        "title": "A pull request has been closed",
+        "tokens": [
+          {
+            "name": "username",
+            "title": "Username",
+            "example": "athombv"
+          },
+          {
+            "name": "repository",
+            "title": "Repository",
+            "example": "node-homey"
+          },
+          {
+            "name": "number",
+            "title": "Number",
+            "example": "3"
+          },
+          {
+            "name": "title",
+            "title": "Title",
+            "example": "Update README.md"
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=organization"
+          }
+        ]
+      }
+    ]
+  },
+  "drivers": [
+    {
+      "name": {
+        "en": "GitHub Organization"
+      },
+      "class": "other",
+      "capabilities": [],
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "images": {
+        "large": "/drivers/organization/assets/images/large.png",
+        "small": "/drivers/organization/assets/images/small.png"
+      },
+      "pair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "repair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        }
+      ],
+      "id": "organization"
+    }
+  ]
+}

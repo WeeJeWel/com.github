@@ -1,0 +1,202 @@
+{
+  "triggers": [
+    {
+      "id": "issue_opened",
+      "title": "An issue has been opened",
+      "tokens": [
+        {
+          "name": "username",
+          "title": "Username",
+          "example": "athombv"
+        },
+        {
+          "name": "repository",
+          "title": "Repository",
+          "example": "node-homey"
+        },
+        {
+          "name": "number",
+          "title": "Number",
+          "example": "3"
+        },
+        {
+          "name": "title",
+          "title": "Title",
+          "example": "Something's not working"
+        }
+      ]
+    },
+    {
+      "id": "issue_closed",
+      "title": "An issue has been closed",
+      "tokens": [
+        {
+          "name": "username",
+          "title": "Username",
+          "example": "athombv"
+        },
+        {
+          "name": "repository",
+          "title": "Repository",
+          "example": "node-homey"
+        },
+        {
+          "name": "number",
+          "title": "Number",
+          "example": "3"
+        },
+        {
+          "name": "title",
+          "title": "Title",
+          "example": "Something's not working"
+        }
+      ]
+    },
+    {
+      "id": "issue_reopened",
+      "title": "An issue has been reopened",
+      "tokens": [
+        {
+          "name": "username",
+          "title": "Username",
+          "example": "athombv"
+        },
+        {
+          "name": "repository",
+          "title": "Repository",
+          "example": "node-homey"
+        },
+        {
+          "name": "number",
+          "title": "Number",
+          "example": "3"
+        },
+        {
+          "name": "title",
+          "title": "Title",
+          "example": "Something's not working"
+        }
+      ]
+    },
+    {
+      "id": "push",
+      "title": "Someone has pushed",
+      "tokens": [
+        {
+          "name": "username",
+          "title": "Username",
+          "example": "athombv"
+        },
+        {
+          "name": "repository",
+          "title": "Repository",
+          "example": "node-homey"
+        }
+      ]
+    },
+    {
+      "id": "pull_request_opened",
+      "title": "A pull request has been opened",
+      "tokens": [
+        {
+          "name": "username",
+          "title": "Username",
+          "example": "athombv"
+        },
+        {
+          "name": "repository",
+          "title": "Repository",
+          "example": "node-homey"
+        },
+        {
+          "name": "number",
+          "title": "Number",
+          "example": "3"
+        },
+        {
+          "name": "title",
+          "title": "Title",
+          "example": "Update README.md"
+        }
+      ]
+    },
+    {
+      "id": "pull_request_merged",
+      "title": "A pull request has been merged",
+      "tokens": [
+        {
+          "name": "username",
+          "title": "Username",
+          "example": "athombv"
+        },
+        {
+          "name": "repository",
+          "title": "Repository",
+          "example": "node-homey"
+        },
+        {
+          "name": "number",
+          "title": "Number",
+          "example": "3"
+        },
+        {
+          "name": "title",
+          "title": "Title",
+          "example": "Update README.md"
+        }
+      ]
+    },
+    {
+      "id": "pull_request_reopened",
+      "title": "A pull request has been reopened",
+      "tokens": [
+        {
+          "name": "username",
+          "title": "Username",
+          "example": "athombv"
+        },
+        {
+          "name": "repository",
+          "title": "Repository",
+          "example": "node-homey"
+        },
+        {
+          "name": "number",
+          "title": "Number",
+          "example": "3"
+        },
+        {
+          "name": "title",
+          "title": "Title",
+          "example": "Update README.md"
+        }
+      ]
+    },
+    {
+      "id": "pull_request_closed",
+      "title": "A pull request has been closed",
+      "tokens": [
+        {
+          "name": "username",
+          "title": "Username",
+          "example": "athombv"
+        },
+        {
+          "name": "repository",
+          "title": "Repository",
+          "example": "node-homey"
+        },
+        {
+          "name": "number",
+          "title": "Number",
+          "example": "3"
+        },
+        {
+          "name": "title",
+          "title": "Title",
+          "example": "Update README.md"
+        }
+      ]
+    }
+  ]
+}
