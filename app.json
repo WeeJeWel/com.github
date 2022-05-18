@@ -35,21 +35,25 @@
         "title": "An issue has been opened",
         "tokens": [
           {
+            "type": "string",
             "name": "username",
             "title": "Username",
             "example": "athombv"
           },
           {
+            "type": "string",
             "name": "repository",
             "title": "Repository",
             "example": "node-homey"
           },
           {
+            "type": "string",
             "name": "number",
             "title": "Number",
             "example": "3"
           },
           {
+            "type": "string",
             "name": "title",
             "title": "Title",
             "example": "Something's not working"
@@ -68,21 +72,25 @@
         "title": "An issue has been closed",
         "tokens": [
           {
+            "type": "string",
             "name": "username",
             "title": "Username",
             "example": "athombv"
           },
           {
+            "type": "string",
             "name": "repository",
             "title": "Repository",
             "example": "node-homey"
           },
           {
+            "type": "string",
             "name": "number",
             "title": "Number",
             "example": "3"
           },
           {
+            "type": "string",
             "name": "title",
             "title": "Title",
             "example": "Something's not working"
@@ -101,21 +109,25 @@
         "title": "An issue has been reopened",
         "tokens": [
           {
+            "type": "string",
             "name": "username",
             "title": "Username",
             "example": "athombv"
           },
           {
+            "type": "string",
             "name": "repository",
             "title": "Repository",
             "example": "node-homey"
           },
           {
+            "type": "string",
             "name": "number",
             "title": "Number",
             "example": "3"
           },
           {
+            "type": "string",
             "name": "title",
             "title": "Title",
             "example": "Something's not working"
@@ -134,11 +146,13 @@
         "title": "Someone has pushed",
         "tokens": [
           {
+            "type": "string",
             "name": "username",
             "title": "Username",
             "example": "athombv"
           },
           {
+            "type": "string",
             "name": "repository",
             "title": "Repository",
             "example": "node-homey"
@@ -157,21 +171,25 @@
         "title": "A pull request has been opened",
         "tokens": [
           {
+            "type": "string",
             "name": "username",
             "title": "Username",
             "example": "athombv"
           },
           {
+            "type": "string",
             "name": "repository",
             "title": "Repository",
             "example": "node-homey"
           },
           {
+            "type": "string",
             "name": "number",
             "title": "Number",
             "example": "3"
           },
           {
+            "type": "string",
             "name": "title",
             "title": "Title",
             "example": "Update README.md"
@@ -190,21 +208,25 @@
         "title": "A pull request has been merged",
         "tokens": [
           {
+            "type": "string",
             "name": "username",
             "title": "Username",
             "example": "athombv"
           },
           {
+            "type": "string",
             "name": "repository",
             "title": "Repository",
             "example": "node-homey"
           },
           {
+            "type": "string",
             "name": "number",
             "title": "Number",
             "example": "3"
           },
           {
+            "type": "string",
             "name": "title",
             "title": "Title",
             "example": "Update README.md"
@@ -223,21 +245,25 @@
         "title": "A pull request has been reopened",
         "tokens": [
           {
+            "type": "string",
             "name": "username",
             "title": "Username",
             "example": "athombv"
           },
           {
+            "type": "string",
             "name": "repository",
             "title": "Repository",
             "example": "node-homey"
           },
           {
+            "type": "string",
             "name": "number",
             "title": "Number",
             "example": "3"
           },
           {
+            "type": "string",
             "name": "title",
             "title": "Title",
             "example": "Update README.md"
@@ -256,21 +282,25 @@
         "title": "A pull request has been closed",
         "tokens": [
           {
+            "type": "string",
             "name": "username",
             "title": "Username",
             "example": "athombv"
           },
           {
+            "type": "string",
             "name": "repository",
             "title": "Repository",
             "example": "node-homey"
           },
           {
+            "type": "string",
             "name": "number",
             "title": "Number",
             "example": "3"
           },
           {
+            "type": "string",
             "name": "title",
             "title": "Title",
             "example": "Update README.md"
